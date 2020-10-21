@@ -142,7 +142,7 @@ strong{
     flex-direction: row;
     justify-content: center;
     margin-right: 1cm;
-    transform: translateY(9cm);
+    transform: translateY(6.5cm);
 }
 
 .valider {
@@ -164,20 +164,32 @@ textarea {
     display: flex;
     justify-content: center;
     margin-top: 2.5cm;
-    font-size: x-large;
+    font-size: large;
     width: 15cm;
     height: 5cm;
     text-align: center;
     margin-left: 11cm;
+    border-radius: 1rem;  
+}
+
+input[type="text"] {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 8cm;
+    height: 1.3cm;
     border-radius: 1rem;
-    
+    text-align: center;
+    font-size: large;
+    margin-left: 14.5cm;
+    margin-top: 3cm;
 }
 
 #choseimportance {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 2.3cm;
+    margin-top: 1.3cm;
     margin-right: 1.2cm;
 }
 
@@ -194,4 +206,7 @@ input[type=submit]{
 .choseJ, .choseH, .choseH2 {
     margin-left: 0.3cm;
 }
+
+
+
 
