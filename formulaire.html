@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF8">
+    <link rel="stylesheet" href="agenda.css">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="content-style-type" content="text/css">
+    <title>Formulaire</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Formulaire</h1><br>
+    </header>
+
+    <main>
+        <form action="agenda.html" method="post">
+
+
+            <h2>Créez ou ajoutez un élément à l'agenda ici</h2>
+
+            <div id="choseimportance">
+                <div class="red">
+
+                    <label for="importance-a">Important</label><br>
+                    <input type="radio" name="importance" class="importance" id="importance-a" required>
+                </div>
+
+                <div class="orange">
+
+                    <label for="importance-b">Normal</label><br>
+                    <input type="radio" name="importance" class="importance" id="importance-b" required>
+                </div>
+
+                <div class="green">
+
+                    <label for="importance-c">Loisir</label><br>
+                    <input type="radio" name="importance" class="importance" id="importance-c" required>
+                </div>
+
+            </div>
+
+
+            <div id="créneaux">
+
+
+                <div class="choseJ">
+                    <label for="choseJ"></label>
+                    <select name="choseJ" size="1" required>
+                        <option valeur="choseJ">Lundi</option>
+                        <option valeur="choseJ">Mardi</option>
+                        <option valeur="choseJ">Mercredi</option>
+                        <option valeur="choseJ">Jeudi</option>
+                        <option valeur="choseJ">Vendredi</option>
+                        <option valeur="choseJ">Samedi</option>
+                        <option valeur="choseJ">Dimanche</option>
+
+                    </select>
+                </div>
+
+
+                <div class="choseH">
+                    <label for="choseH">de</label>
+                    <!-- <input type="text" id="De" required> -->
+                    <select name="ChoseH" size="1" required>
+                        <option valeur="ChoseH">08h00</option>
+                        <option valeur="ChoseH">08h30</option>
+                        <option valeur="ChoseH">09h00</option>
+                        <option valeur="ChoseH">09h30</option>
+                        <option valeur="ChoseH">10h00</option>
+                        <option valeur="ChoseH">10h30</option>
+                        <option valeur="ChoseH">11h00</option>
+                        <option valeur="ChoseH">11h30</option>
+                        <option valeur="ChoseH">12h00</option>
+                        <option valeur="ChoseH">12h30</option>
+                        <option valeur="ChoseH">13h00</option>
+                        <option valeur="ChoseH">13h30</option>
+                        <option valeur="ChoseH">14h00</option>
+                        <option valeur="ChoseH">14h30</option>
+                        <option valeur="ChoseH">15h00</option>
+                        <option valeur="ChoseH">15h30</option>
+                        <option valeur="ChoseH">16h00</option>
+                        <option valeur="ChoseH">16h30</option>
+                        <option valeur="ChoseH">17h00</option>
+                        <option valeur="ChoseH">17h30</option>
+                        <option valeur="ChoseH">18h00</option>
+                        <option valeur="ChoseH">18h30</option>
+                        <option valeur="ChoseH">19h00</option>
+                        <option valeur="ChoseH">19h30</option>
+                        <option valeur="ChoseH">20h00</option>
+                    </select><br>
+                </div>
+
+                <div class="choseH">
+                    <label for="choseH">à</label>
+                    <!-- <input type="text" id="à" required> -->
+                    <select name="ChoseH" size="1" required>
+                        <option valeur="ChoseH">08h00</option>
+                        <option valeur="ChoseH">08h30</option>
+                        <option valeur="ChoseH">09h00</option>
+                        <option valeur="ChoseH">09h30</option>
+                        <option valeur="ChoseH">10h00</option>
+                        <option valeur="ChoseH">10h30</option>
+                        <option valeur="ChoseH">11h00</option>
+                        <option valeur="ChoseH">11h30</option>
+                        <option valeur="ChoseH">12h00</option>
+                        <option valeur="ChoseH">12h30</option>
+                        <option valeur="ChoseH">13h00</option>
+                        <option valeur="ChoseH">13h30</option>
+                        <option valeur="ChoseH">14h00</option>
+                        <option valeur="ChoseH">14h30</option>
+                        <option valeur="ChoseH">15h00</option>
+                        <option valeur="ChoseH">15h30</option>
+                        <option valeur="ChoseH">16h00</option>
+                        <option valeur="ChoseH">16h30</option>
+                        <option valeur="ChoseH">17h00</option>
+                        <option valeur="ChoseH">17h30</option>
+                        <option valeur="ChoseH">18h00</option>
+                        <option valeur="ChoseH">18h30</option>
+                        <option valeur="ChoseH">19h00</option>
+                        <option valeur="ChoseH">19h30</option>
+                        <option valeur="ChoseH">20h00</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="valider">
+
+                <label for="Connexion"></label>
+                <a href="agenda.html"><input type="submit" value="Valider">
+                </a>
+            </div>
+
+        </form>
+    </main>
+</body>
+
+<footer>
+
+</footer>
+
+</html>

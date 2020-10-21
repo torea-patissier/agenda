@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserra");
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(images/agenda2.jpg);
+    background-size: 120%;
+}
+
+
+td {
+    border: 1px groove black;
+    padding:15px;
+    padding-left: 1.5cm;
+    padding-right: 1.5cm;
+    text-align: center;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    transform: translateY(3cm);
+    max-width: 33cm;
+    margin: auto;
+    padding-left: 0.3cm;
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2cm;
+    margin-bottom: -3cm;
+}
+
+header {
+    font-size:xx-large
+
+}
+
+.heures{
+border: none;
+}
+
+td:hover{
+    color: black;
+    background-color: rgba(156, 156, 156, 0.616);
+}
+
+td a {
+    display: block;
+}
+
+#jour  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    transform: translateY(2.5cm);
+    font-weight: 700;
+    padding-top: 2cm;
+}
+
+#heures {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    transform: translateY(3.3cm);
+}
+
+.her {
+    margin-bottom: 0.42cm;
+    margin-left: 0.4cm;
+    font-weight: 700;
+
+}
+
+.important {
+    background-color: red;
+}
+
+.important:hover{
+    background-color: rgba(255, 0, 0, 0.660);
+}
+
+
+
+.moinsimportant {
+    background-color: orange;
+}
+
+.moinsimportant:hover {
+    background-color: rgba(255, 166, 0, 0.660);
+}
+
+
+
+.loisir {
+    background-color: green;
+}
+
+.loisir:hover {
+    background-color: rgba(0, 128, 0, 0.660);
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+i, b {
+    color: orange;
+}
+
+#créneaux, .valider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transform: translateY(5cm);
+    border
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    transform: translateY(3cm);
+}
+
