@@ -21,29 +21,7 @@
         <form action="agenda.html" method="post">
 
 
-            <h2>Créez ou ajoutez un élément à l'agenda ici</h2>
-
-            <div id="choseimportance">
-                <div class="red">
-
-                    <label for="importance-a">Important</label><br>
-                    <input type="radio" name="importance" class="importance" id="importance-a" required>
-                </div>
-
-                <div class="orange">
-
-                    <label for="importance-b">Normal</label><br>
-                    <input type="radio" name="importance" class="importance" id="importance-b" required>
-                </div>
-
-                <div class="green">
-
-                    <label for="importance-c">Loisir</label><br>
-                    <input type="radio" name="importance" class="importance" id="importance-c" required>
-                </div>
-
-            </div>
-
+            <h2>Ajoutez ou modifiez un élément à l'agenda</h2>
 
             <div id="créneaux">
 
@@ -58,14 +36,12 @@
                         <option valeur="choseJ">Vendredi</option>
                         <option valeur="choseJ">Samedi</option>
                         <option valeur="choseJ">Dimanche</option>
-
                     </select>
                 </div>
 
 
                 <div class="choseH">
                     <label for="choseH">de</label>
-                    <!-- <input type="text" id="De" required> -->
                     <select name="ChoseH" size="1" required>
                         <option valeur="ChoseH">08h00</option>
                         <option valeur="ChoseH">08h30</option>
@@ -95,9 +71,8 @@
                     </select><br>
                 </div>
 
-                <div class="choseH">
+                <div class="choseH2">
                     <label for="choseH">à</label>
-                    <!-- <input type="text" id="à" required> -->
                     <select name="ChoseH" size="1" required>
                         <option valeur="ChoseH">08h00</option>
                         <option valeur="ChoseH">08h30</option>
@@ -128,11 +103,38 @@
                 </div>
             </div>
 
+
+            <textarea name="addmodify" id="addmodify" cols="80" rows="10" placeholder="ajouter/modifier un élément"
+                required></textarea>
+
+
+            <div id="choseimportance">
+                <div class="red">
+
+                    <label for="importance-a">Important</label>
+                    <input type="radio" name="importance" class="importance" id="importance-a" required>
+                </div>
+
+                <div class="orange">
+
+                    <label for="importance-b">Normal</label>
+                    <input type="radio" name="importance" class="importance" id="importance-b" required>
+                </div>
+
+                <div class="green">
+
+                    <label for="importance-c">Loisir</label>
+                    <input type="radio" name="importance" class="importance" id="importance-c" required>
+                </div>
+
+            </div>
+
             <div class="valider">
 
                 <label for="Connexion"></label>
                 <a href="agenda.html"><input type="submit" value="Valider">
                 </a>
+
             </div>
 
         </form>
@@ -140,7 +142,7 @@
 </body>
 
 <footer>
-
 </footer>
 
 </html>
+
